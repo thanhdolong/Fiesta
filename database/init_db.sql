@@ -272,6 +272,7 @@ CREATE TABLE `data_user` (
   `facebook_url` varchar(250) DEFAULT NULL,
   `twitter_url` varchar(250) DEFAULT NULL,
   `instagram_url` varchar(250) DEFAULT NULL,
+  `registered` datetime DEFAULT NULL,
   `description` text,
   PRIMARY KEY (`user_id`),
   KEY `faculty` (`faculty_id`),
